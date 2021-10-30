@@ -6,10 +6,16 @@ const invModel = require('../schemas/inventorySchema.js');
 const profileModel = require('../schemas/profileSchema.js');
 
 const roles = [
-	{"index": 1, "roleID": "891579594283561020", "price": "1000", "type": "silver"},
-	{"index": 2, "roleID": "891579602382782475", "price": "2000", "type": "silver"},
-	{"index": 3, "roleID": "891579602835759104", "price": "4000", "type": "silver"},
+	{"index": 1, "roleID": "862924426202710057", "price": "10000", "type": "silver"},
+	{"index": 2, "roleID": "862924712820867082", "price": "25000", "type": "silver"},
+	{"index": 3, "roleID": "8862925117607378954", "price": "45000", "type": "silver"},
+	{"index": 4, "roleID": "862925631175393290", "price": "60000", "type": "silver"},
+	{"index": 5, "roleID": "862926470582501406", "price": "85000", "type": "silver"},
+	{"index": 6, "roleID": "862926842868400138", "price": "100000", "type": "silver"},
+	{"index": 7, "roleID": "862927172624973824", "price": "125000", "type": "silver"},
 ];
+
+
 
 module.exports.run = async (bot, message, args) => {
 		let rUser = message.author;
